@@ -31,9 +31,9 @@ All benchmarks were obtained on NERSC's Perlmutter supercomputer, runtimes may v
 | Serial with Blocking             | ~10.0             | ~2.4x          |
 | Serial with Separable Filters    | ~5.0              | ~4.7x          |
 | Serial + Compiler Flags          | ~1.0              | ~23.7x         |
-| OpenMP (32 threads)              | ~0.1              | ~237x          |
-| Basic GPU                        | ~0.1              | ~237x          |
-| GPU with Separable Filters       | ~0.02             | ~1000x         |
+| OpenMP (32 threads)              | ~0.05              | ~474.2x          |
+| Basic GPU                        | ~0.1              | ~237.1x          |
+| GPU with Separable Filters       | ~0.02             | ~1185.5x         |
 
 All measurements taken on a 3744 x 5616 pixel test image running on NERSC's Perlmutter supercomputer.
 
